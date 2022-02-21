@@ -1,0 +1,11 @@
+//Use Effect ():
+
+    When we want to execute a function after the return statement then we use effect.
+*It is a lifecycle hook Which execute after another lifecycle Functions
+
+*It takes two parameters one is function and another one is dependency.
+
+*Dependencies are nothing but component Did update (or) component Did Mount (or) component will UnMount.
+
+*Whenever the value of the dependency changes then the useeffect will be called. 
+ Whenever if we not give any dependent it will execute only for the first time.
